@@ -1,0 +1,134 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+.none {
+  display: none;
+}
+
+.wrapper {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  animation: rotate 2.5s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ==== Animation 6 ==== */
+
+.circle6 {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.c61 {
+  border-left: 15px solid var(--red);
+  background: #000;
+  border-right: 15px solid #000;
+  border-top: 15px solid #000;
+  border-bottom: 15px solid #000;
+}
+
+.c62 {
+  border-right: 15px solid var(--white);
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid transparent;
+}
+
+.c63 {
+  border-right: 15px solid transparent;
+  border-top: 15px solid var(--yellow);
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid transparent;
+}
+
+.c64 {
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid var(--white);
+}
+
+.c65 {
+  position: relative;
+  animation: colorUp 2s ease infinite;
+}
+
+.c65 Image {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@keyframes colorUp {
+  0% {
+    width: 50px;
+    height: 50px;
+    background: #ff0;
+  }
+  15% {
+    width: 10px;
+    height: 10px;
+    background: #ff006e;
+  }
+  25% {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+  }
+  40% {
+    width: 20px;
+    height: 20px;
+    background: #fb5607;
+  }
+  50% {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+  }
+  65% {
+    width: 30px;
+    height: 30px;
+    background: #80ffdb;
+  }
+  75% {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+  }
+  90% {
+    width: 40px;
+    height: 40px;
+    background: #3a86ff;
+  }
+
+  100% {
+    width: 50px;
+    height: 50px;
+    background: #3a86ff;
+  }
+}

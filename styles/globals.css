@@ -1,0 +1,47 @@
+/* // FONT TYPES */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Lato:wght@400&display=swap");
+
+$dm: "DM Sans", san-serif;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $dm;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+body {
+  font-size: 10x;
+  scroll-behavior: smooth;
+}
+
+a,
+Link,
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+* {
+  box-sizing: border-box;
+  selection-color: red;
+}
+
+p::selection {
+  color: #fff;
+  background-color: var(--red);
+}
+
+/* COLORS */
+:root {
+  --red: #ff1700;
+  --yellow: #ff8e00;
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #333;
+  --lato: "Lato", sans-serif;
+  --dm: "DM Sans", sans-serif;
+}

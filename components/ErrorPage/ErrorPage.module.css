@@ -1,0 +1,66 @@
+.error_page {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+
+.error_page .error_text {
+  background-color: var(--black);
+  color: white;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.error_page .error_text .error_title {
+  font-family: var(--dm);
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.error_page .error_text .error_info {
+  font-family: var(--lato);
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.error_page .error_text .error_btn {
+  border: none;
+  outline: none;
+  background-color: var(--yellow);
+  width: 50%;
+  margin: 1rem auto;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.error_page .error_text .error_btn:hover {
+  background-color: var(--black);
+  border: 2px solid var(--white);
+}
+
+.error_page .error_text .error_btn a {
+  color: var(--white);
+  text-decoration: none;
+  cursor: pointer;
+  font-family: var(--dm);
+  font-weight: 500;
+}
+
+.error_page .error_page_image {
+  background-image: url(../../public/Error404.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100vh;
+}
+/*# sourceMappingURL=ErrorPage.module.css.map */

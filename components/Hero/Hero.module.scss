@@ -1,0 +1,32 @@
+
+
+.highlighted {
+  background-image: linear-gradient(0deg, var(--yellow) 50%, transparent 50%);
+}
+
+.hero {
+  text-align: center;
+  width: 80%;
+  margin: 10rem auto 0 auto;
+
+ 
+
+  .hero_title {
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: var(--dm);
+    color: #000;
+  }
+
+  .hero_info {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    opacity: 0.8;
+    padding: 0 4rem;
+    font-family: var(--lato);
+  }
+}
+
+
+@import './HeroRes';

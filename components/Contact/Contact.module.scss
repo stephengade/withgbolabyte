@@ -1,0 +1,111 @@
+.Contact_container {
+  margin-top: 10rem;
+
+  .contact_intro {
+    text-align: right;
+
+    .contact_text {
+      .contact_info {
+        font-size: 2rem;
+        font-family: var(--lato);
+        opacity: 0.7;
+      }
+
+      .contact_text {
+        font-size: 4rem;
+        font-family: var(--dm);
+        font-weight: 900;
+      }
+    }
+  }
+
+  .contact_details {
+    margin: 2rem 0;
+    .contact_data {
+      font-size: 3rem;
+      font-family: var(--dm);
+      font-weight: 700;
+      text-align: left;
+      margin-left: 2rem;
+
+      @media screen and (max-width: 768px) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  // form
+
+  .contact_form {
+  
+    background-color: #333;
+ margin-top: 5rem;
+ margin-bottom: -5rem;
+ padding:  5rem 2rem;
+
+ @media screen and (max-width: 768px) {
+  padding: 1rem .2rem;
+ }
+
+    
+
+    form {
+      display: flex;
+      flex-direction: column;
+      margin-top: 5rem;
+      width: 600px;
+      margin: 0 auto;
+      padding: 2rem;
+      border-radius: 5px;
+      // caret-color: var(--red);
+      font-family: var(--lato);
+    
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+
+      @media screen and (max-width: 500px) {
+        width: 350px;
+        padding: 0.8rem;
+      }
+
+      .contact_form_input,
+      textarea {
+        width: 80%;
+        padding: 0.5rem;
+        border: none;
+        margin: 1rem auto;
+        border-radius: 5px;
+      
+        font-size: 1.2rem;
+      }
+    }
+
+    .contact_form_submit:focus, .contact_form_input:focus, textarea:focus {
+        
+        outline: none;
+    }
+
+    .contact_form_input::placeholder, textarea::placeholder {
+       font-family: var(--dm);
+       color: var(--red);
+       font-size: 1rem;
+    }
+
+    .contact_form_submit {
+      width: 50%;
+      margin: 0 auto;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      background-color: var(--red);
+      font-family: var(--dm);
+      font-size: 1.2rem;
+      color: var(--white);
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--black);
+        border: 2px solid var(--white);
+      }
+    }
+  }
+}

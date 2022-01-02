@@ -1,0 +1,51 @@
+
+.main_body {
+    background-color: var(--black);
+    margin-top: -5rem;
+
+    .body_row {
+        width: 80%;
+        margin: 0 auto;
+        padding: 9rem 0 3rem 0;
+
+        .main_body_1 {
+            .red_text {
+                color: var(--red);
+                font-size: 1.2rem;
+                font-weight: 900;
+                font-family: var(--dm);
+                margin-bottom: 2rem;
+            }
+
+            .body_heading {
+                font-size: 3.3rem;
+                font-weight: 900;
+                font-family: var(--dm);
+               
+                color: var(--white);
+                padding-right: 10%;
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        .main_body_2 {
+            .body_text {
+                font-size: 1.2rem;
+                font-weight: 500;
+                font-family: var(--lato);
+              
+                color: var(--white);
+                opacity: .8;
+
+                .hightlight {
+                    color: var(--yellow);
+                    font-weight: 900;
+                }
+            }
+        }
+        
+    }
+}
+
+@import './MainRes';
+

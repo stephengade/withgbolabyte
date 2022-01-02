@@ -1,0 +1,27 @@
+@media (min-width: 0px) and (max-width: 500px) {
+   .PreviousWork {
+
+       &_row {
+
+        .PreviousWork_col_1 {
+          width: 98%;
+        }
+           .PreviousWork_text {
+              font-size: 1.5rem;
+           }
+       }
+   }
+  }
+
+
+  // laptop 
+
+  @media (min-width: 800px) and (max-width: 1148px) {
+     .PreviousWork {
+        &_row {
+           .PreviousWork_col_1 {
+              width: 45%;
+           }
+        }
+     }
+  }

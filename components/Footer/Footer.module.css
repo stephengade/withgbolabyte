@@ -1,0 +1,115 @@
+@charset "UTF-8";
+.footer_container {
+  margin-top: 5rem;
+  background-color: var(--black);
+  padding: 5rem 3rem;
+}
+
+.footer_container .footer_text {
+  font-family: var(--dm);
+  font-size: 1.3rem;
+  color: var(--white);
+  opacity: 0.8;
+  padding-right: 5%;
+  font-weight: 500;
+}
+
+.footer_container .footer_row_2 {
+  margin-top: 3rem;
+}
+
+.footer_container .footer_row_2 .footer_follow_title {
+  font-family: var(--lato);
+  font-size: 4rem;
+  color: var(--white);
+  font-weight: 900;
+}
+
+.footer_container .footer_row_2 .footer_follow_text_p {
+  font-size: 1.5rem;
+  font-family: var(--dm);
+  color: var(--white);
+  padding-right: 20%;
+}
+
+.footer_container .footer_row_2 .footer_follow_text_p a {
+  color: var(--white);
+}
+
+.footer_container .footer_row_2 .footer_follow_text_p a:hover {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer_container .footer_row_2 .footer_link {
+  margin-top: 1rem;
+}
+
+.footer_container .footer_row_2 .footer_link a {
+  color: var(--white);
+  font-size: 2rem;
+  font-family: var(--dm);
+  text-decoration: none;
+  opacity: .6;
+}
+
+.footer_container .footer_row_2 .footer_link a::before {
+  content: "—";
+  margin-right: .5rem;
+}
+
+.footer_container .footer_row_2 .footer_link a:hover {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer_container .footer_copyright {
+  margin-top: 4rem;
+  font-family: var(--lato);
+  font-size: 1rem;
+  color: var(--white);
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  .footer_container {
+    padding: 2rem;
+  }
+  .footer_container .footer_row_2 {
+    margin-top: 3rem;
+  }
+  .footer_container .footer_row_2 .footer_follow_title {
+    font-size: 1.5rem;
+  }
+  .footer_container .footer_row_2 .footer_follow_text_p {
+    font-size: 1.2rem;
+    padding-right: 5%;
+  }
+  .footer_container .footer_row_2 .footer_link {
+    margin-top: 0.2rem;
+  }
+  .footer_container .footer_row_2 .footer_link a {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+  .footer_container {
+    padding: 4rem;
+  }
+  .footer_container .footer_row_2 {
+    margin-top: 3rem;
+  }
+  .footer_container .footer_row_2 .footer_follow_title {
+    font-size: 2rem;
+  }
+  .footer_container .footer_row_2 .footer_follow_text_p {
+    font-size: 1.5rem;
+  }
+  .footer_container .footer_row_2 .footer_link {
+    margin-top: 0.2rem;
+  }
+  .footer_container .footer_row_2 .footer_link a {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=Footer.module.css.map */

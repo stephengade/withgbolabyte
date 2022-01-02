@@ -1,0 +1,74 @@
+.footer_container {
+  margin-top: 5rem;
+  background-color: var(--black);
+  padding: 5rem 3rem;
+
+  .footer_text {
+    font-family: var(--dm);
+    font-size: 1.3rem;
+    color: var(--white);
+    opacity: 0.8;
+    padding-right: 5%;
+    font-weight: 500;
+  }
+
+  .footer_row_2 {
+    margin-top: 3rem;
+
+    .footer_follow_title {
+      font-family: var(--lato);
+      font-size: 4rem;
+      color: var(--white);
+      font-weight: 900;
+    }
+
+    .footer_follow_text_p {
+      font-size: 1.5rem;
+      font-family: var(--dm);
+      color: var(--white);
+      padding-right: 20%;
+
+      a {
+        color: var(--white);
+        &:hover {
+          color: var(--white);
+          text-decoration: none;
+        }
+      }
+    }
+
+    
+    .footer_link {
+        margin-top: 1rem;
+        a {
+            color: var(--white);
+            font-size: 2rem;
+            font-family: var(--dm);
+            text-decoration: none;
+            opacity: .6;
+
+            &::before {
+                content: "—";
+                margin-right: .5rem;
+            }
+
+
+            &:hover {
+                color: var(--white);
+                text-decoration: none;
+            }
+        }
+    }
+    
+   
+  }
+
+  .footer_copyright {
+      margin-top: 4rem;
+    font-family: var(--lato);
+    font-size: 1rem;
+    color: var(--white);
+}
+}
+
+@import './FooRes';

@@ -1,0 +1,62 @@
+.service_section {
+    margin-top: 5rem;
+    
+
+    .service_info {
+        color: var(--red);
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+       
+        font-weight: 800;
+        opacity: .8;
+        font-family: var(--lato);
+        margin-left: 10%;
+    }
+
+    .service_heading {
+        color: var(--black);
+        font-size: 5rem;
+        line-height: 6rem;
+       
+        font-weight: 900;
+        font-family: var(--lato);
+        margin-left: 10%;
+        background-image: linear-gradient(
+            0deg, var(--yellow) 50%,transparent 50%);
+           display: inline-block;
+    }
+    padding-right: 10%;
+
+    .service_row {
+        width: 80%;
+        margin-left: 20%;
+        margin-top: 2rem;
+       
+
+        .service_col {
+           
+            .service_title {
+                font-size: 1.5rem;
+                line-height: 2rem;
+                font-weight: 600;
+                font-family: var(--dm);
+                margin-bottom: 2rem;
+            }
+
+            .service_list {
+                font-size: 1rem;
+                font-family: var(--lato);
+                font-weight: 500;
+                line-height: 1.5;
+                
+                &:before {
+                    content: "—";
+                    margin-right: .5rem;
+                }
+
+            }
+        }
+    }
+}
+
+@import './SerRes';
