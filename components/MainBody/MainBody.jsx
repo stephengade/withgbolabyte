@@ -9,7 +9,7 @@ function MainBody() {
         <div
           className={`${BodyStyles.main_body_1} col-12 col-lg-6 col-xl-6 col-md-8`}
         >
-          <h4 className={BodyStyles.red_text}>Let&#39;s work together</h4>
+          <p className={BodyStyles.red_text}>Let&#39;s work together</p>
           <h3 className={BodyStyles.body_heading}>
             Enjoy Experience that Defy Expectations...
           </h3>

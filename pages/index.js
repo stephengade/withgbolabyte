@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+        <html lang="en" />
         <title>
           Gbolabyte: Digital Marketing, Web Design &amp; Web Development
         </title>
@@ -19,7 +20,8 @@ export default function Home() {
           name="description"
           content="Gbolabyte is a digital agency that work with brands boost their online visibility, conversion and sales through digital marketing, SEO, Web design, and development."
         />
-        <link rel="canonical" href="https://gbolabyte.com/" />
+        <link rel="canonical" href="/" />
+        {/* <link rel="manifest" href="/manifest.json" /> */}
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta
@@ -42,6 +44,7 @@ export default function Home() {
           content="Gbolabyte is a digital agency that work with brands boost their online visibility, conversion and sales through digital marketing, SEO, Web design, and development."
         />
         <link rel="icon" href="/favicon.ico" />
+      
       </Head>
 
       <main>

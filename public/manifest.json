@@ -2,35 +2,36 @@
   "short_name": "Gbolabyte",
   "name": "Gbolabyte Digital Agency",
   "description": "A digital agency that specializes in creating websites, mobile apps, and social media campaigns.",
+  "dir": "ltr",
+  "lang": "en",
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait",
+  "display": "standalone",
+  "theme_color": "#ff8e00",
+  "background_color": "#ff1700",
   "icons": [
     {
-      "src": "/public/icons/192by192.png",
+      "src": "/Icons/192by192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/public/icons/512by512.pngg",
+      "src": "/Icons/512by512.pngg",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "/public/icons/mask192.png",
+      "src": "/Icons/mask192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable"
     },
     {
-      "src": "/public/icons/mask512.png",
+      "src": "/Icons/mask512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
     }
-  ],
-  "dir": "ltr",
-  "lang": "en",
-  "start_url": "../index.html",
-  "orientation": "portrait",
-  "display": "standalone",
-  "theme_color": "#ff8e00",
-  "background_color": "#ff1700"
+  ]
 }

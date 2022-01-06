@@ -9,12 +9,14 @@ function about() {
   return (
     <div className={styles.Contact_us}>
       <Head>
+      <html lang="en" />
         <title>Get in Touch - Gbolabyte</title>
         <meta
           name="description"
           content="Gbolabyte is a digital agency that work with brands boost their online visibility, conversion and sales through digital marketing, SEO, Web design, and development."
         />
-        <link rel="canonical" href="https://gbolabyte.com/" />
+        {/* <link rel="manifest" href="/manifest.json" /> */}
+        <link rel="canonical" href="/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta
