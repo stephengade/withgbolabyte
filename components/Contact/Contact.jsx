@@ -50,7 +50,7 @@ function Contact() {
     <>
       <section className={`${design.Contact_container} container-fluid`}>
         <div className={design.contact_intro}>
-          <div className={design.contact_text}>
+          <div className={design.contact_wrapper}>
             <p className={design.contact_info}>Together, we can so much 👌</p>
             <h2 className={design.contact_text}>Get in touch</h2>
           </div>
@@ -59,6 +59,10 @@ function Contact() {
             <p className={design.contact_data}>hello@gbolabyte.com</p>
             <p className={design.contact_data}>+234 (0) 81 6454 0355</p>
             <p className={design.contact_data}>TW, FB, IG: @Gbolabyte</p>
+
+            <p className={`mt-5 ${design.contact_data}`}>
+              LOCATION: <span style={{ opacity: ".8" }}> Remote</span>
+            </p>
           </div>
         </div>
 

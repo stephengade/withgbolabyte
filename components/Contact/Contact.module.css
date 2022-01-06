@@ -6,13 +6,13 @@
   text-align: right;
 }
 
-.Contact_container .contact_intro .contact_text .contact_info {
+.Contact_container .contact_intro .contact_wrapper .contact_info {
   font-size: 2rem;
   font-family: var(--lato);
   opacity: 0.7;
 }
 
-.Contact_container .contact_intro .contact_text .contact_text {
+.Contact_container .contact_intro .contact_wrapper .contact_text {
   font-size: 4rem;
   font-family: var(--dm);
   font-weight: 900;

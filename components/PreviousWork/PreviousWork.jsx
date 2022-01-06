@@ -58,7 +58,6 @@ function PreviousWork() {
 
         {/* Project 5 */}
 
-
         <div className={`${Classes.Previous_work_cta} text-center`}>
           <button>
             <Link href="/contact">
@@ -66,7 +65,6 @@ function PreviousWork() {
             </Link>
           </button>
         </div>
-       
       </div>
     </section>
   );

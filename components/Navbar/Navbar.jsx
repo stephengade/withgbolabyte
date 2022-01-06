@@ -34,8 +34,9 @@ const Navbar = () => {
 
         {/* Menu Toogler */}
 
-        <div className={styles.navbar_toggle} onClick={ShowMenu}>
+        <div className={styles.navbar_toggle}>
           <span
+            onClick={ShowMenu}
             className={
               navOpen
                 ? `${styles.toggle_lines} ${styles.opacity}`

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .service_section {
   margin-top: 5rem;
+  overflow-x: hidden;
   padding-right: 10%;
 }
 

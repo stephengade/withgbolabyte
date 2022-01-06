@@ -37,6 +37,8 @@ function about() {
           content="Gbolabyte is a digital agency that work with brands boost their online visibility, conversion and sales through digital marketing, SEO, Web design, and development."
         />
         <link rel="icon" href="/favicon.ico" />
+       
+
       </Head>
 
       <main>

@@ -2,9 +2,14 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Classes from "./Services.module.css";
 
+
+
+
 function Services() {
   return (
-    <section className={`${Classes.service_section} container-fluid`}>
+    <section className={`${Classes.service_section} container-fluid`} style={{position: "relative"}}>
+     
+
       <p className={Classes.service_info}>What We Do</p>
 
       <h3 className={Classes.service_heading}>Our Services</h3>
