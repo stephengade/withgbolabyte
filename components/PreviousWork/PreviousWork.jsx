@@ -6,14 +6,27 @@ import Link from "next/link";
 
 // Images
 import Agmedia from "../../public/Agconmedia.png";
-import Realty9ja from "../../public/Realty9ja_mockup.png";
-import Healthfeed from "../../public/Healthfp.png";
-import Feroxia from "../../public/feroxia.png";
+import Realty9ja from "../../public/Realty9ja.png";
+// import Healthfeed from "../../public/Healthfp.png";
+// import Feroxia from "../../public/feroxia.png";
+// import Unito from "../../public/universal_turnover.png";
 
 function PreviousWork() {
   return (
     <section className={`${Classes.PreviousWork} container-fluid`} id="work">
       <div className={`${Classes.PreviousWork_row} row`}>
+        <h2
+          className="heading"
+          style={{
+            fontFamily: "var(--dm)",
+            textAlign: "center",
+            marginBottom: "2rem",
+            fontSize: "3rem",
+          }}
+        >
+          Some Work
+        </h2>
+
         {/* Project 1 */}
         <Project
           image={Agmedia}
@@ -35,33 +48,12 @@ function PreviousWork() {
           bg="#008037"
         />
 
-        {/* Project 3 */}
-
-        <Project
-          image={Healthfeed}
-          info="Healthy Living"
-          title="Healthfeedplus"
-          description="Website Design and Maintenance"
-          path="https://www.healthfeedplus.com"
-          bg="#609a33"
-        />
-
-        {/* Project 4 */}
-        <Project
-          image={Feroxia}
-          info="Dynamically Optimized"
-          title="Feroxia"
-          description="Website Design and Maintenance"
-          path="https://www.feroxia.com"
-          bg="#ffa500"
-        />
-
-        {/* Project 5 */}
+        {/* CTA */}
 
         <div className={`${Classes.Previous_work_cta} text-center`}>
           <button>
-            <Link href="/contact">
-              <a>Ask for more</a>
+            <Link href="/work">
+              <a>Check More</a>
             </Link>
           </button>
         </div>

@@ -5,7 +5,7 @@
   "dir": "ltr",
   "lang": "en",
   "start_url": "/",
-  "scope": "/",
+  "scope": ".",
   "orientation": "portrait",
   "display": "standalone",
   "theme_color": "#ff8e00",

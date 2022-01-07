@@ -1,0 +1,26 @@
+.work_container {
+  overflow-y: hidden;
+}
+
+// Res ENd
+
+.work_wrapper {
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+  
+
+  .work_info {
+    font-size: 2rem;
+    font-family: var(--lato);
+    opacity: 0.7;
+  }
+
+  .work_text {
+    font-size: 4rem;
+    font-family: var(--dm);
+    font-weight: 900;
+  }
+}
+
+

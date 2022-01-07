@@ -9,7 +9,8 @@ function about() {
   return (
     <div className={styles.Contact_us}>
       <Head>
-      <html lang="en" />
+        <html lang="en" />
+
         <title>Get in Touch - Gbolabyte</title>
         <meta
           name="description"
@@ -39,7 +40,6 @@ function about() {
           content="Gbolabyte is a digital agency that work with brands boost their online visibility, conversion and sales through digital marketing, SEO, Web design, and development."
         />
         <link rel="icon" href="/favicon.ico" />
-       
       </Head>
 
       <main>

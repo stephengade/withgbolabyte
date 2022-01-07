@@ -49,8 +49,8 @@ function Contact() {
   return (
     <>
       <section className={`${design.Contact_container} container-fluid`}>
-        <div className={design.contact_intro}>
-          <div className={design.contact_wrapper}>
+        <div className={`${design.contact_intro} row`}>
+          <div className={`${design.contact_wrapper} col-12`}>
             <p className={design.contact_info}>Together, we can so much 👌</p>
             <h2 className={design.contact_text}>Get in touch</h2>
           </div>
@@ -77,6 +77,7 @@ function Contact() {
           >
             Tell us what you need, we will reply as soon as possible...
           </h2>
+          <div className="col-12">
           <form method="POST" action="https://api.slapform.com/QbOYqtpdD">
             <input
               type="email"
@@ -127,6 +128,7 @@ function Contact() {
               Submit
             </button>
           </form>
+          </div>
         </div>
       </section>
     </>

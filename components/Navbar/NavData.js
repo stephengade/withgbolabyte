@@ -21,7 +21,7 @@ const NavData = [
 
 {
     title: "Work",
-    path: "/#work",
+    path: "/work",
     className: "nav-link",
 }
 

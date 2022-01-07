@@ -1,22 +1,16 @@
+import React from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar/Navbar";
-import Hero from "../components/Hero/Hero";
-import MainBody from "../components/MainBody/MainBody";
-import Services from "../components/Services/Services";
-import CallToAction from "../components/CallToAction/CallToAction";
+import Work from "../components/Work/Work";
 import Footer from "../components/Footer/Footer";
-import PreviousWork from "../components/PreviousWork/PreviousWork";
 
-export default function Home() {
+function about() {
   return (
-    <div className={styles.container}>
+    <div className={styles.About_us}>
       <Head>
         <html lang="en" />
-
-        <title>
-          Gbolabyte: Digital Marketing, Web Design &amp; Web Development
-        </title>
+        <title>Previous Work - About Gbolabyte</title>
         <meta
           name="description"
           content="Gbolabyte is a digital agency that work with brands boost their online visibility, conversion and sales through digital marketing, SEO, Web design, and development."
@@ -49,13 +43,11 @@ export default function Home() {
 
       <main>
         <Navbar />
-        <Hero />
-        <MainBody />
-        <Services />
-        <CallToAction />
-        <PreviousWork />
+        <Work />
         <Footer />
       </main>
     </div>
   );
 }
+
+export default about;

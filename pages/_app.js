@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import { motion } from "framer-motion";
 import "../styles/globals.css";
 import Loading from "../components/Preloader/Preloader";
 import Cursor from "../components/Cursor/Cursor";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps}) {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
 
@@ -20,12 +21,23 @@ function MyApp({ Component, pageProps }) {
   }, [router]);
 
   return (
-    <>
-      <Cursor />
+    <motion.div
+      key={router.route}
+      initial="pageInitial"
+      animate="pageAnimate"
+      variants={{
+        pageInitial: {
+          opacity: 0,
+        },
+        pageAnimate: {
+          opacity: 1,
+        },
+      }}
+    >
       <Loading loading={loading} />
-
+      <Cursor />
       <Component {...pageProps} />
-    </>
+    </motion.div>
   );
 }
 

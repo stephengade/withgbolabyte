@@ -43,10 +43,12 @@ function About() {
         </div>
         {/* Video */}
         <div className={`${design.about_video} row`}>
+          <div className="col-12">
           <video autoPlay loop muted playsInline style={{ width: "100%" }}>
             <source src={MyVideo} type="video/mp4" />
             <source src={MyVideo} type="video/ogg" />
           </video>
+          </div>
         </div>
       </section>
 
@@ -103,7 +105,7 @@ function About() {
       <AboutCTA
         link="/contact"
         text="Contact Us"
-        info=" Are you ready to work with an agency that works as hard to earn your
+        info=" Are you ready to work with an agency that work as hard to earn your
           trust as they do to earn you results?"
       />
     </>
