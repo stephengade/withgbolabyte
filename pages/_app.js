@@ -5,7 +5,7 @@ import "../styles/globals.css";
 import Loading from "../components/Preloader/Preloader";
 import Cursor from "../components/Cursor/Cursor";
 
-function MyApp({ Component, pageProps}) {
+export function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
 

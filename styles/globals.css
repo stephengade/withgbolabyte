@@ -12,13 +12,32 @@ body {
   margin: 0;
   font-family: $dm;
   overflow-x: hidden;
-  cursor: none;
+  scrollbar-color: red yellow;
 }
 
 body {
-  font-size: 10x;
+  font-size: 10px;
   scroll-behavior: smooth;
+  scrollbar-width: thin;
+ 
 }
+
+body::-webkit-scrollbar {
+  width: 13px;
+}
+
+body::-webkit-scrollbar-track {
+  background: none;
+
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--yellow);
+  border-radius: 6px;
+  border: 3px solid var(--yellow);
+}
+
+
 
 a,
 Link,

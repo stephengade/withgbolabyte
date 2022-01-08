@@ -5,8 +5,8 @@ import Project from "./Projects";
 import Link from "next/link";
 
 // Images
-import Agmedia from "../../public/Agconmedia.png";
-import Realty9ja from "../../public/Realty9ja.png";
+import Agmedia from "./Images/Agconmedia.png";
+import Realty9ja from "./Images/realty9ja.png";
 // import Healthfeed from "../../public/Healthfp.png";
 // import Feroxia from "../../public/feroxia.png";
 // import Unito from "../../public/universal_turnover.png";

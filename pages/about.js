@@ -16,7 +16,7 @@ function about() {
           content="Gbolabyte is a digital agency that work with brands boost their online visibility, conversion and sales through digital marketing, SEO, Web design, and development."
         />
         <link rel="canonical" href="/" />
-        {/* <link rel="manifest" href="/manifest.json" /> */}
+       
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta
@@ -27,7 +27,7 @@ function about() {
           property="og:description"
           content="Gbolabyte is a digital agency that work with brands boost their online visibility, conversion and sales through digital marketing, SEO, Web design, and development."
         />
-        <meta property="og:url" content="https://gbolabyte.com/" />
+        <meta property="og:url" content="/" />
         <meta property="og:site_name" content="Gbolabyte" />
         <meta name="twitter:card" content="summary" />
         <meta

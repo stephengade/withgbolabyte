@@ -3,13 +3,12 @@ import "bootstrap/dist/css/bootstrap.css";
 import Classes from "../PreviousWork/PreviousWork.module.css";
 import Project from "../PreviousWork/Projects";
 
-
 // Images
-import Agmedia from "../../public/Agconmedia.png";
-import Realty9ja from "../../public/Realty9ja.png";
-import Healthfeed from "../../public/Healthfp.png";
-import Feroxia from "../../public/feroxia.png";
-import Unito from "../../public/universal_turnover.png";
+import Agmedia from "../PreviousWork/Images/Agconmedia.png";
+import Realty9ja from "../PreviousWork/Images/realty9ja.png";
+import Healthfeed from "../PreviousWork/Images/healthfp.png";
+import Feroxia from "../PreviousWork/Images/feroxia.png";
+import Unito from "../PreviousWork/Images/universal_turnover.png";
 
 function Allwork() {
   return (
