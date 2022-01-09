@@ -13,6 +13,7 @@ const VidStyles = {
 function Hero() {
   return (
     <header className={heroStyles.hero}>
+      <div className={`${heroStyles.circle} ${heroStyles.dot}`}></div>
       <h2 className={heroStyles.hero_title}>
         Creative Digital Agency, <br/>Better{" "}
         <span className={heroStyles.highlighted}>Digital Experiences</span>.

@@ -122,7 +122,7 @@ function Contact() {
               placeholder="In few words, tell us what you need?"
               required
               onChange={(e) => setMessage(e.target.value)}
-            ></textarea>
+            />
 
             <button type="submit" className={design.contact_form_submit}>
               Submit

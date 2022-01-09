@@ -1,5 +1,3 @@
-
-
 .highlighted {
   background-image: linear-gradient(0deg, var(--yellow) 50%, transparent 50%);
 }
@@ -8,8 +6,6 @@
   text-align: center;
   width: 80%;
   margin: 10rem auto 0 auto;
-
- 
 
   .hero_title {
     font-size: 5rem;
@@ -28,5 +24,93 @@
   }
 }
 
+/* Circle Animation */
+$size: 350px;
+/* negative size divided by 2 */
+$half_size_negative: -175px;
 
-@import './HeroRes';
+/***
+   * just init a dot
+   * can be changed to whatever
+   * top, left should be set dynamically via JS
+   * ( it is where revealed pixel is )
+***/
+.dot {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(211, 15, 15);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+/***
+   * main element, circle which does the animation
+   * width, height can be changed to whatever
+   * same as the color and border size
+***/
+.circle {
+  z-index: -1;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  background: transparent;
+  animation-name: pixel_notification_in_out;
+  animation-duration: 2s; /* 0.8s seems perfect - but can be changed */
+  animation-iteration-count: infinite; /* times to repeat */
+  /***
+     * if you want animation, when it's finished,
+     * to go back to original state
+     *
+     * --> animation-direction: alternate;
+  ***/
+}
+
+/***
+   * start from the very pixel from singularity
+   * end as big circle slowly fading away
+***/
+@keyframes pixel_notification_in_out {
+  0% {
+    width: 0;
+    height: 0;
+    margin-left: 0;
+    margin-top: 0;
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    width: $size;
+    height: $size;
+    margin-left: $half_size_negative;
+    margin-top: $half_size_negative;
+    opacity: 0;
+  }
+}
+
+/***
+   * start as big circle slowly fading in
+   * end in very pixel to singularity
+***/
+@keyframes pixel_notification_out_in {
+  0% {
+    width: $size;
+    height: $size;
+    margin-left: $half_size_negative;
+    margin-top: $half_size_negative;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    width: 0;
+    height: 0;
+    margin-left: 0;
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+
+@import "./HeroRes";

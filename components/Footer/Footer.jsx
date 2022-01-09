@@ -33,17 +33,15 @@ function Footer() {
 
         <div className={`${Design.footer_follow_text} col-6`}>
           <p className={`${Design.footer_follow_text_p}`}>
-            Ping us at{" "}
-            <a href="mailto:hello@gbolabyte.com">hello@gbolabyte.com</a> or
-            follow us on{" "}
+           
             <Link href="https://www.twitter.com/gbolabyte">
               <a>Twitter</a>
             </Link>
-            ,{" "}
+           <br/>
             <Link href="https://www.instagram.com/gbolabyte">
               <a>Instagram</a>
             </Link>{" "}
-            and{" "}
+            <br/>
             <Link href="https://www.facebook.com/gbolabyte">
               <a>Facebook</a>
             </Link>.

@@ -1,0 +1,27 @@
+@media (min-width: 0px) and (max-width: 500px),
+  (min-width: 501px) and (max-width: 769px) {
+  .cta_section {
+    margin-top: 2rem;
+
+    .cta_row {
+      width: 100%;
+      margin: 0 auto;
+      padding: 2rem 0 5rem 0;
+
+      .cta_col_2 {
+        display: none;
+      }
+
+      // start
+
+      .cta_col_1 {
+        .cta_title {
+          font-size: 2rem;
+          line-height: 2.4rem;
+        }
+      }
+
+      // end
+    }
+  }
+}

@@ -59,15 +59,15 @@ const Navbar = () => {
               <a>send us a mail here</a>
             </Link>
             ...<br></br> Follow us on{" "}
-            <Link href="https://www.facebook.com/gbolabyte.digital/">
+            <Link href="https://www.facebook.com/gbolabyte/">
               <a>Facebook</a>
             </Link>
             ,{" "}
-            <Link href="https://www.instagram.com/gbolabyte.digital/">
+            <Link href="https://www.instagram.com/gbolabyte/">
               <a>Instagram</a>
             </Link>{" "}
             and{" "}
-            <Link href="https://twitter.com/gbolabyte_digital">
+            <Link href="https://twitter.com/gbolabyte">
               <a>Twitter</a>
             </Link>{" "}
           </p>

@@ -25,6 +25,135 @@
   font-family: var(--lato);
 }
 
+/* Circle Animation */
+/* negative size divided by 2 */
+/***
+   * just init a dot
+   * can be changed to whatever
+   * top, left should be set dynamically via JS
+   * ( it is where revealed pixel is )
+***/
+.dot {
+  width: 100px;
+  height: 100px;
+  background-color: #d30f0f;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+/***
+   * main element, circle which does the animation
+   * width, height can be changed to whatever
+   * same as the color and border size
+***/
+.circle {
+  z-index: -1;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  background: transparent;
+  -webkit-animation-name: pixel_notification_in_out;
+          animation-name: pixel_notification_in_out;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  /* 0.8s seems perfect - but can be changed */
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  /* times to repeat */
+  /***
+     * if you want animation, when it's finished,
+     * to go back to original state
+     *
+     * --> animation-direction: alternate;
+  ***/
+}
+
+/***
+   * start from the very pixel from singularity
+   * end as big circle slowly fading away
+***/
+@-webkit-keyframes pixel_notification_in_out {
+  0% {
+    width: 0;
+    height: 0;
+    margin-left: 0;
+    margin-top: 0;
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    width: 350px;
+    height: 350px;
+    margin-left: -175px;
+    margin-top: -175px;
+    opacity: 0;
+  }
+}
+@keyframes pixel_notification_in_out {
+  0% {
+    width: 0;
+    height: 0;
+    margin-left: 0;
+    margin-top: 0;
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    width: 350px;
+    height: 350px;
+    margin-left: -175px;
+    margin-top: -175px;
+    opacity: 0;
+  }
+}
+
+/***
+   * start as big circle slowly fading in
+   * end in very pixel to singularity
+***/
+@-webkit-keyframes pixel_notification_out_in {
+  0% {
+    width: 350px;
+    height: 350px;
+    margin-left: -175px;
+    margin-top: -175px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    width: 0;
+    height: 0;
+    margin-left: 0;
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+@keyframes pixel_notification_out_in {
+  0% {
+    width: 350px;
+    height: 350px;
+    margin-left: -175px;
+    margin-top: -175px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    width: 0;
+    height: 0;
+    margin-left: 0;
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+
 @media (min-width: 0px) and (max-width: 500px) {
   .hero {
     width: 96%;
@@ -39,6 +168,7 @@
     line-height: 1.5rem;
     padding: 0 1rem;
     margin-top: -.3rem;
+    margin-bottom: -2rem;
   }
 }
 
