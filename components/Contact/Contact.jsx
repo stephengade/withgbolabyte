@@ -51,7 +51,7 @@ function Contact() {
       <section className={`${design.Contact_container} container-fluid`}>
         <div className={`${design.contact_intro} row`}>
           <div className={`${design.contact_wrapper} col-12`}>
-            <p className={design.contact_info}>Together, we can so much 👌</p>
+            <p className={design.contact_info}>Together, we can so much</p>
             <h2 className={design.contact_text}>Get in touch</h2>
           </div>
 
@@ -78,56 +78,56 @@ function Contact() {
             Tell us what you need, we will reply as soon as possible...
           </h2>
           <div className="col-12">
-          <form method="POST" action="https://api.slapform.com/QbOYqtpdD">
-            <input
-              type="email"
-              placeholder="Email Address"
-              required
-              className={design.contact_form_input}
-              name="email"
-              onChange={(e) => setEmail(e.target.value)}
-            />
-            <input
-              type="text"
-              placeholder="Your Name"
-              required
-              className={design.contact_form_input}
-              name="name"
-              onChange={(e) => setName(e.target.value)}
-            />
-            <input
-              type="text"
-              placeholder="Project Title"
-              required
-              className={design.contact_form_input}
-              name="title"
-              onChange={(e) => setTitle(e.target.value)}
-            />
+            <form method="POST" action="https://api.slapform.com/QbOYqtpdD">
+              <input
+                type="email"
+                placeholder="Email Address"
+                required
+                className={design.contact_form_input}
+                name="email"
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <input
+                type="text"
+                placeholder="Your Name"
+                required
+                className={design.contact_form_input}
+                name="name"
+                onChange={(e) => setName(e.target.value)}
+              />
+              <input
+                type="text"
+                placeholder="Project Title"
+                required
+                className={design.contact_form_input}
+                name="title"
+                onChange={(e) => setTitle(e.target.value)}
+              />
 
-            <input
-              maxLength={10}
-              type="number"
-              placeholder="What's Your Budget? (USD)"
-              required
-              className={design.contact_form_input}
-              name="budget"
-              onChange={(e) => setBudget(e.target.value)}
-            />
+              <input
+                maxLength={10}
+                type="number"
+                placeholder="What's Your Budget? (USD)"
+                required
+                className={design.contact_form_input}
+                name="budget"
+                onChange={(e) => setBudget(e.target.value)}
+              />
 
-            <textarea
-              name="message"
-              id="message"
-              cols="10"
-              rows="5"
-              placeholder="In few words, tell us what you need?"
-              required
-              onChange={(e) => setMessage(e.target.value)}
-            />
+              <textarea
+                name="message"
+                id="message"
+                cols="10"
+                rows="5"
+                placeholder="In few words, tell us what you need?"
+                required
+                onChange={(e) => setMessage(e.target.value)}
+              />
 
-            <button type="submit" className={design.contact_form_submit}>
-              Submit
-            </button>
-          </form>
+              <button type="submit" className={design.contact_form_submit}>
+                Submit
+              </button>
+            </form>
           </div>
         </div>
       </section>
