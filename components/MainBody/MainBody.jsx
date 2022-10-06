@@ -11,21 +11,18 @@ function MainBody() {
         >
           <p className={BodyStyles.red_text}>Let&#39;s work together</p>
           <h3 className={BodyStyles.body_heading}>
-            Enjoy Experience that Defy Expectations...
+            Enjoy Experiences that Defy Expectations...
           </h3>
         </div>
 
         <div
           className={`${BodyStyles.main_body_2} col-12 col-lg-6 col-xl-6 col-md-8`}
         >
-          <p className={BodyStyles.body_text}>
-            Welcome to the world of transformation, the Metaverse!
-          </p>
+          <p className={BodyStyles.body_text}>Welcome to GbolaByte</p>
 
           <p className={BodyStyles.body_text}>
-            We work with brands and individuals to build websites and digital
-            products that stands the test of time. Not just that, we measure
-            ourselves against our clients&#39; success.
+            We work with brands and individuals to create beautiful websites and
+            digital products that stand the test of time.
           </p>
 
           <p className={BodyStyles.body_text}>
@@ -35,7 +32,8 @@ function MainBody() {
           </p>
 
           <p className={BodyStyles.body_text}>
-            We work with brands in eCommerce, Real estate, blockchain, health, finTech, edTech and some other industries.
+            We work with brands in eCommerce, Real estate, blockchain, health,
+            finTech, edTech and some other industries.
           </p>
         </div>
       </div>

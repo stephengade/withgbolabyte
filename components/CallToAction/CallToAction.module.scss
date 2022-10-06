@@ -1,67 +1,57 @@
 .cta_section {
-    background-color: var(--black);
-    margin-top: 10rem;
-    
-    
+  background-color: var(--black);
+  margin-top: 10rem;
 
-    .cta_row {
-        width: 80%;
-        margin: 0 auto;
-        padding: 4rem 0 5rem 0;
+  .cta_row {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem 0 5rem 0;
 
-
-        .cta_col_2 {
-           margin-top: -7rem;
-        }
-
-        .cta_col_1 {
-           
-            .cta_title {
-                color: var(--white);
-                font-size: 3.5rem;
-                line-height: 4rem;
-                font-weight: 900;
-                font-family: var(--dm);
-                margin-left: 10%;
-            }
-
-            .cta_text {
-                color: var(--white);
-                font-family: var(--lato);
-                font-size: 1.5rem;
-                line-height: 2rem;
-                opacity: .4;
-                margin: 1rem 0 1rem 10%;
-            }
-            
-            .cta_btn {
-                margin-left: 10%;
-                 background-color: var(--red);
-                color: var(--black);
-                padding: 7px 25px;
-                border: none;
-                border-radius: 15px;
-
-              
-                    a {
-                        color: var(--white);
-                        font-weight: 900;
-                        font-size: 1.5rem;
-                        font-family: var(--dm);
-                        text-decoration: none;
-
-                       
-                    }
-                
-                
-                &:hover {
-                    opacity: .6;
-                }
-
-            }
-        
-        }
+    .cta_col_2 {
+      margin-top: -7rem;
     }
+
+    .cta_col_1 {
+      .cta_title {
+        color: var(--white);
+        font-size: 3.5rem;
+        line-height: 4rem;
+        font-weight: 900;
+        font-family: var(--dm);
+        margin-left: 10%;
+      }
+
+      .cta_text {
+        color: var(--white);
+        font-family: var(--lato);
+        font-size: 1.5rem;
+        line-height: 2rem;
+        opacity: 0.8;
+        margin: 1rem 0 1rem 10%;
+      }
+
+      .cta_btn {
+        margin-left: 10%;
+        background-color: var(--red);
+        color: var(--black);
+        padding: 7px 25px;
+        border: none;
+        border-radius: 15px;
+
+        a {
+          color: var(--white);
+          font-weight: 900;
+          font-size: 1.5rem;
+          font-family: var(--dm);
+          text-decoration: none;
+        }
+
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+  }
 }
 
-@import './CallRes';
+@import "./CallRes";
